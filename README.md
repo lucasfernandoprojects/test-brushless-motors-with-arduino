@@ -67,11 +67,9 @@ This project uses two different battery configurations:
 
 Note that the four 18650 cells connected in series provide approximately 14.8V nominally and 16.8V when fully charged.
 
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-5.jpg" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-6.jpg" width="400" height="250" style="margin: 10px;">
-</div>
-</br>
+![Front-view photo of the Li-Ion battery holder with batteries.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-5.jpg)
+
+![Back-view photo of the Li-Ion battery holder with batteries.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-6.jpg)
 
 > [!WARNING]
 > The [Arduino UNO Q](https://docs.arduino.cc/hardware/uno-q/) supports an input voltage between **7V and 24V through its VIN pin**. Always make sure your battery voltage is within the supported range of the board (or microcontroller) you are powering.
@@ -122,11 +120,9 @@ The motor speed increases as you turn the potentiometer.
 
 If the motor spins in the wrong direction, disconnect the power and swap any two of the three motor wires.
 
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-1.jpg" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-2.jpg" width="400" height="250" style="margin: 10px;">
-</div>
-</br>
+![Photo of a stationary brushless motor over a black background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-1.jpg)
+
+![Photo of a spinning brushless motor over a black background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-2.jpg)
 
 ## Safety Precautions
 
