@@ -1,10 +1,8 @@
 # Brushless Motor Tester with Arduino
 
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-9.jpg" width="400" height="250" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-10.jpg" width="400" height="250" style="margin: 10px;">
-</div>
-</br>
+![Photo of a stationary brushless motor.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-9.jpg)
+
+![Photo of a spinning brushless motor.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-10.jpg)
 
 *I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/).*
 
@@ -145,8 +143,6 @@ If the motor spins in the wrong direction, disconnect the power and swap any two
 - Use appropriate battery protection and charging equipment.
 
 ![Photo of the Arduino UNO Q board over a green background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-7.jpg)
-
-</br>
 
 ![Photo of the 2212/920KV brushless motor.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-8.jpg)
 
