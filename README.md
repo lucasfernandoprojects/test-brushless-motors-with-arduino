@@ -144,9 +144,10 @@ If the motor spins in the wrong direction, disconnect the power and swap any two
 
 ## Repository Contents
 
-- `test_brushless_motors.ino` – Arduino sketch.
+- `code/` – It stores the Arduino sketch.
 - `schematics/` – Circuit wiring diagrams.
+- `photos/` - The images used in the README file.
 
 ## License
 
-Feel free to use, modify, and adapt this project for your own electronics and robotics projects.
+Feel free to use, modify, and adapt this project for your own electronics and robotics projects. It's completely open-source.
