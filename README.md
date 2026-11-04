@@ -49,7 +49,7 @@ Connect the components according to the following schematics:
 | White (signal) | Digital pin 9 |
 | Black (ground) | GND |
 
-Connect the ESC's power wires to the LiPo battery. The battery holder powers the Arduino through VIN and GND.
+Connect the ESC's power wires to the LiPo battery. The battery holder, on the other hand, powers the Arduino through VIN and GND.
 
 > [!IMPORTANT]
 > The Arduino and ESC must share a common ground for the control signal to work correctly.
