@@ -16,7 +16,7 @@ The system uses an Arduino to read the potentiometer position and generate contr
 
 You'll need the following components:
 
-- Arduino UNO Q (or a compatible Arduino board with 3.3V analog inputs)
+- Arduino UNO Q (or a compatible microcontroller board)
 - 10kΩ potentiometer
 - Breadboard
 - 30A ESC (or another ESC compatible with your motor)
