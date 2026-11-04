@@ -1,5 +1,13 @@
 # Brushless Motor Tester with Arduino
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-9.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-10.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+</br>
+
+*I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/).*
+
 A simple and inexpensive way to test brushless DC motors (BLDC) using an Arduino board, a potentiometer, and an electronic speed controller (ESC).
 
 This project allows you to control the motor speed directly from a potentiometer, making it useful for testing motors during drone development and other electronics projects.
@@ -20,9 +28,13 @@ You'll need the following components:
 - Brushless DC motor
 - Jumper wires
 
+![Photo of the project components on a green background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-3.jpg)
+
 ## Wiring
 
 Connect the components according to the following schematics:
+
+![Photo of the project schematics.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/schematics/schematics.png)
 
 ### Potentiometer
 
@@ -45,6 +57,30 @@ Connect the ESC's power wires to the LiPo battery. The battery holder powers the
 > The Arduino and ESC must share a common ground for the control signal to work correctly.
 >
 > Check the ESC wiring instructions before connecting anything.
+
+![Photo of the project assembled on a green background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-4.jpg)
+
+### Battery
+
+This project uses two different battery configurations:
+
+- **LiPo battery:** Powers the brushless motors through the ESC.
+- **Li-ion batteries:** Four 18650 Li-ion cells connected in series using a battery holder to power the Arduino UNO Q through its VIN pin.
+
+Note that the four 18650 cells connected in series provide approximately 14.8V nominally and 16.8V when fully charged.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-5.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-6.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+</br>
+
+> [!WARNING]
+> The [Arduino UNO Q](https://docs.arduino.cc/hardware/uno-q/) supports an input voltage between **7V and 24V through its VIN pin**. Always make sure your battery voltage is within the supported range of the board (or microcontroller) you are powering.
+>
+> Remember that battery voltage changes depending on its charge level. Always consider the maximum fully charged voltage, not just the nominal voltage, when selecting your power supply.
+
+Check the wiring schematic included in this repository for a complete overview of the connections.
 
 ## Arduino Sketch
 
@@ -88,6 +124,12 @@ The motor speed increases as you turn the potentiometer.
 
 If the motor spins in the wrong direction, disconnect the power and swap any two of the three motor wires.
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-1.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-2.jpg" width="400" height="250" style="margin: 10px;">
+</div>
+</br>
+
 ## Safety Precautions
 
 > [!CAUTION]
@@ -101,6 +143,12 @@ If the motor spins in the wrong direction, disconnect the power and swap any two
 - Check battery polarity before connecting the power supply.
 - Never exceed the voltage limits of the Arduino board or ESC.
 - Use appropriate battery protection and charging equipment.
+
+![Photo of the Arduino UNO Q board over a green background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-7.jpg)
+
+</br>
+
+![Photo of the 2212/920KV brushless motor.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-8.jpg)
 
 ## Repository Contents
 
