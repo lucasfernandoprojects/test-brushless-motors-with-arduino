@@ -145,8 +145,8 @@ If the motor spins in the wrong direction, disconnect the power and swap any two
 ## Repository Contents
 
 - `code/` – It stores the Arduino sketch.
-- `schematics/` – Circuit wiring diagrams.
 - `photos/` - The images used in the README file.
+- `schematics/` – Circuit wiring diagrams.
 
 ## License
 
