@@ -4,7 +4,7 @@
 
 ![Photo of a spinning brushless motor.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-10.jpg)
 
-*I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/).*
+*I've recently posted a tutorial about this project on YouTube. You can watch it [here](https://www.youtube.com/watch?v=Xo-4XUgpN2Y).*
 
 A simple and inexpensive way to test brushless DC motors (BLDC) using an Arduino board, a potentiometer, and an electronic speed controller (ESC).
 
