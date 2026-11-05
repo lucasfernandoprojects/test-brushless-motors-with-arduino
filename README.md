@@ -120,6 +120,8 @@ The motor speed increases as you turn the potentiometer.
 
 If the motor spins in the wrong direction, disconnect the power and swap any two of the three motor wires.
 
+I tested this circuit on a brushless motor called 2212/920KV, but you can use the system with motors from different sizes and brands.
+
 ![Photo of a stationary brushless motor over a black background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-1.jpg)
 
 ![Photo of a spinning brushless motor over a black background.](https://github.com/lucasfernandoprojects/test-brushless-motors-with-arduino/blob/main/photos/photo-2.jpg)
